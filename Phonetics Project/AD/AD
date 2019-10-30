@@ -1,0 +1,47 @@
+@Author Marshall Smith
+@Author Micah Penney
+
+Phonetics Program
+
+//Specifications (From User)
+    Operation Big Bird
+    - 5 Words with a corrasponding picutre
+    - Each word uses one of the vowels 
+    - Have the whole alphabet visable
+    - Click on the letters and they will apper in the blanks, correct or not. 
+    - This will be used for assesment purposes (which means it will not tell you when it is wrong or right)
+    - This would be called a Phonetics Assignment 
+    - Alphabet in lower case*
+    - SCENES NOT IN {A E I O U} ORDER*
+
+
+
+    |-------------------------|
+    |                         |
+    |                         |                  
+    |        *Picture*        |
+    |                         |
+    |                         |
+    |-------------------------|
+
+            ___  ___  ___
+
+    a b c d e f g h i j k l m 
+    n o p q r s t u v w x y z 
+
+//Algorithm Design
+   Opening scenes
+        Name of the program
+        Directions 
+        {TEXT BOX} Enter the students name to create a file
+        [BUTTON] that goes to next scenes
+    All laid out (No random scenes)
+   Word scenes
+      picture 
+      spaces for entered letters
+      clickable alphabet
+      [BUTTON] that goes to the next word scene (last word scene will go back to opening scene)
+   Misc
+      Does not matter how many letters they put in the blank (up to 3) they are still allowed to move on
+      Inside the file it will show what the student placed in the blanks so the teacher can go back and look at the results
+      
